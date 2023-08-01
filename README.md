@@ -1,12 +1,6 @@
-# Djangp application
-
----
-![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework__hlavnyi_volodymyr__django/actions/workflows/main-workflow.yml/badge.svg)
-
 ## 🏠 Homework
 
-Homework related actions.
-
+Homework #5
 ### ▶️ Run
 
 Make all actions needed for run homework from zero. Including configuration.
