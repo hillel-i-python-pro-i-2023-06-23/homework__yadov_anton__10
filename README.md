@@ -1,1 +1,0 @@
-# homework__yadov_anton__10

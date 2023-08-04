@@ -1,0 +1,17 @@
+
+django==4.2.3
+
+
+faker==19.2.0
+
+
+pre-commit==3.3.3
+
+pyupgrade==3.9.0
+
+black==23.7.0
+
+flake8==6.0.0
+
+autoflake==2.2.0
+
