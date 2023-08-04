@@ -26,6 +26,10 @@ repos:
         name: black
         entry: black
         language: system
+        exclude: |
+          (?x)^(
+              .*/__init__.py
+          )$
         types:
           - python
 

@@ -1,6 +1,15 @@
-## 🏠 Homework
+# Django application
 
-Homework #10
+---
+![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/hillel-i-python-pro-i-2023-06-23/homework__yadov_anton__10/actions/workflows/main-workflow.yml/badge.svg)
+
+## 🏠 Homework 10
+
+Simple Django project.
+
+
+
+
 ### ▶️ Run
 
 Make all actions needed for run homework from zero. Including configuration.

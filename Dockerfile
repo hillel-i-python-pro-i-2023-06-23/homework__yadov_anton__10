@@ -1,3 +1,5 @@
+# Contains a set of instructions used to build a Docker image.
+
 FROM python:3.11
 
 ENV PYTHONUNBUFFERED=1
@@ -17,11 +19,10 @@ COPY --chown=${USER} requirements.txt requirements.txt
 RUN pip install --upgrade pip && \
     pip install --requirement requirements.txt
 
-COPY --chown=${USER} ./core core
-COPY --chown=${USER} ./app app
+# Set ownership and copy files/directories from the host machine to the container's filesystem during the build process.
 COPY --chown=${USER} ./manage.py manage.py
-
-run
+COPY --chown=${USER} ./apps apps
+COPY --chown=${USER} core core
 
 USER ${USER}
 
